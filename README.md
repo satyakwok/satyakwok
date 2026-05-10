@@ -59,12 +59,23 @@ SentrisCloud: https://github.com/SentrisCloud
 
 ## Selected Work
 
-- **Sentrix Core Node** — Rust-based EVM-compatible Layer-1 implementation
-- **Canonical Contracts** — system and ecosystem contracts for Sentrix Chain
-- **SentrisCloud Frontend** — ecosystem apps, faucet, wallet, and launchpad interface
-- **Sentrix SDK** — TypeScript tooling for developers
-- **Sentrix Indexer** — infrastructure for explorer and application data
-- **dApp Starter** — starter template for builders deploying on Sentrix Chain
+- **Sentrix Core Node** — Rust-based EVM-compatible Layer-1 implementation  
+  https://github.com/sentrix-labs/sentrix
+
+- **Awesome Sentrix** — curated directory of official Sentrix resources, developer tools, infrastructure, applications, and guides  
+  https://github.com/sentrix-labs/awesome-sentrix
+
+- **Canonical Contracts** — WSRX, Multicall3, SentrixSafe, TokenFactory, and ecosystem contracts  
+  https://github.com/sentrix-labs/canonical-contracts
+
+- **SentrisCloud Frontend** — ecosystem apps including explorer, faucet, wallet, DEX, launchpad, and airdrop  
+  https://github.com/SentrisCloud/frontend
+
+- **Sentrix TypeScript SDK** — developer SDK for Sentrix EVM, native APIs, and BFT channels  
+  https://github.com/SentrisCloud/sdk-ts
+
+- **Sentrix dApp Starter** — starter template for deploying Solidity contracts on Sentrix Chain  
+  https://github.com/SentrisCloud/dapp-starter
 
 ## Direction
 
