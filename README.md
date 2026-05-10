@@ -1,112 +1,75 @@
 # Satya Kwok
 
-I’m building **Sentrix Chain** — a Rust-based EVM Layer 1 from Indonesia.
+Founder & Core Developer of **Sentrix Chain** — a Rust-based, EVM-compatible Layer-1 blockchain from Indonesia.
 
-Sentrix started as a blockchain project, but it has become a deeper systems engineering journey: consensus, validator infrastructure, networking, storage, EVM execution, RPC, indexers, explorers, and real testnet operations.
+I am building Sentrix Chain as an independent blockchain infrastructure project focused on protocol engineering, validator infrastructure, EVM compatibility, RPC reliability, and developer tooling.
 
-I’m still early, still debugging, and still learning from real failure modes.
+Sentrix is designed to bring Ethereum-compatible tooling into a Rust-based Layer-1 environment, with native execution, staking, validator infrastructure, block explorer support, faucet infrastructure, SDKs, and ecosystem applications.
 
----
-
-## What I’m building
+## What I’m Building
 
 ### Sentrix Chain
 
-A Rust-based EVM-compatible Layer 1 focused on:
+**Sentrix Chain** is an open-source EVM-compatible Layer-1 blockchain built in Rust.
 
-- BFT consensus and validator liveness
-- libp2p networking
-- EVM execution with `revm`
-- MDBX-backed storage
-- JSON-RPC, WebSocket, REST, and gRPC APIs
-- validator operations
-- testnet/mainnet infrastructure
-- explorer and indexer systems
+The protocol focuses on:
 
-Main repo:  
-https://github.com/sentrix-labs/sentrix
+- Rust-based core node development
+- Native + EVM execution
+- DPoS/BFT consensus
+- Validator and staking infrastructure
+- JSON-RPC compatibility for Ethereum tooling
+- Developer tooling for builders and ecosystem teams
 
----
+Main repository: https://github.com/sentrix-labs/sentrix  
+Website: https://sentrixchain.com  
+Organization: https://github.com/sentrix-labs
 
-### SentrisCloud
+## Current Focus
 
-The product layer around Sentrix Chain.
+- Stabilizing the Sentrix Chain core protocol
+- Improving BFT liveness, validator safety, and network reliability
+- Expanding EVM compatibility and RPC behavior
+- Building better validator, staking, and node operation tooling
+- Improving documentation, security notes, and developer onboarding
+- Shipping ecosystem tools through SentrisCloud
 
-SentrisCloud brings the chain closer to users and developers through:
+## Ecosystem Work
 
-- explorer
-- faucet
-- wallet surfaces
-- APIs
-- indexer services
-- launchpad / exchange-related products
-- ecosystem tools
+I also work on supporting infrastructure under **SentrisCloud**, including:
 
-Website:  
-https://sentriscloud.com
+- Block explorer
+- Faucet
+- Web wallet
+- Mobile wallet
+- SDK
+- Indexer
+- dApp starter templates
+- Launchpad and ecosystem applications
 
----
+SentrisCloud: https://github.com/SentrisCloud
 
-## Current focus
+## Tech Focus
 
-Right now, I’m mostly working on:
+- **Core Protocol:** Rust, EVM compatibility, native execution, DPoS/BFT consensus
+- **Blockchain Infrastructure:** validators, staking, RPC, indexing, block explorers, faucet systems
+- **Smart Contracts:** Solidity, Foundry, Hardhat, canonical contracts, AMM/DEX primitives
+- **Developer Tooling:** TypeScript SDKs, viem, ethers.js, dApp starters, wallet integrations
+- **Applications:** explorer, web wallet, mobile wallet, launchpad, ecosystem dashboards
 
-- hardening BFT consensus behavior
-- improving validator reliability
-- monitoring testnet liveness
-- debugging block production stalls
-- improving RPC / API infrastructure
-- making Sentrix easier for developers to understand and use
+## Selected Work
 
-The goal is not to rush hype.
+- **Sentrix Core Node** — Rust-based EVM-compatible Layer-1 implementation
+- **Canonical Contracts** — system and ecosystem contracts for Sentrix Chain
+- **SentrisCloud Frontend** — ecosystem apps, faucet, wallet, and launchpad interface
+- **Sentrix SDK** — TypeScript tooling for developers
+- **Sentrix Indexer** — infrastructure for explorer and application data
+- **dApp Starter** — starter template for builders deploying on Sentrix Chain
 
-The goal is to build real infrastructure that can survive real conditions.
+## Direction
 
----
+My goal is to make Sentrix Chain a credible blockchain infrastructure project from Indonesia: technically transparent, builder-friendly, and useful for developers who want to deploy EVM-compatible applications on a dedicated Layer-1 network.
 
-## Engineering interests
+The project is still early, but the focus is clear:
 
-I’m interested in:
-
-- Rust
-- distributed systems
-- blockchain runtimes
-- BFT consensus
-- peer-to-peer networking
-- validator infrastructure
-- storage engines
-- EVM internals
-- observability
-- infrastructure reliability
-
----
-
-## Philosophy
-
-A chain is not just a token.
-
-A chain is:
-
-- consensus
-- networking
-- execution
-- storage
-- validators
-- APIs
-- products
-- monitoring
-- recovery
-- trust
-
-I’m building Sentrix step by step, from the core protocol to the user-facing layer.
-
-Still early. Still learning. Still building.
-
----
-
-## Links
-
-- Sentrix Chain: https://sentrixchain.com
-- Sentrix Core: https://github.com/sentrix-labs/sentrix
-- SentrisCloud: https://sentriscloud.com
-- GitHub: https://github.com/satyakwok
+**real code, real infrastructure, real network progress.**
