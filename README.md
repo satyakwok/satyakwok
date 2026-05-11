@@ -85,16 +85,86 @@ The project is still early, but the focus is clear:
 
 **real code, real infrastructure, real network progress.**
 
-## Support
+---
 
-Open-source contributor work (CometBFT, tendermint-rs, Reth, alloy, libp2p — plus Sentrix Chain core) is unpaid by default. If my work has been useful and you want to support continued contributions, direct crypto tips help.
+## Sponsor
 
-| Network | Asset(s) | Address |
-|---------|----------|---------|
-| Ethereum / Base / Monad / BNB / Arbitrum / Optimism / Polygon / Sentrix Chain | ETH, USDC, USDT, BERA, SRX, any EVM token | `0x25cF4d0e455b37387a1891712Bd3bF0a5bCd37c4` |
-| Solana | SOL, USDC-SPL, any SPL token | `Dkqj5ntv66cZFTFpMWZ9KaiF45srY9ZxZNLwmAtrG1nT` |
-| Bitcoin (Taproot) | BTC | `bc1pfgkpanxcyv6kl4k3jmtgegh53x8c8lukz7fr4gdsd625gacg6ygs2q534d` |
+I build open-source blockchain infrastructure full-time, unpaid. Sponsorship buys me focused engineering hours: more upstream PRs, faster Sentrix Chain releases, better docs and tooling for everyone building on or alongside it.
 
-The EVM address works on every EVM-compatible chain — Ethereum mainnet, Base, Monad, Arbitrum, Optimism, Polygon, BNB Chain, Sentrix Chain, and others. Wallet: Phantom.
+**No fiat. No bank. No middleman. 100% on-chain.**
 
-No fiat / no bank. 100% on-chain. Any amount is appreciated.
+### What your sponsorship enables
+
+- Upstream PRs to **CometBFT**, **tendermint-rs**, **Reth**, **alloy**, **libp2p**, **revm**, and other Rust + chain infra projects
+- **Sentrix Chain** core development — BFT consensus hardening, libp2p reliability, validator tooling, RPC/gRPC parity, indexer + explorer
+- **SentrisCloud** ecosystem — block explorer, faucet, wallets (web + mobile), SDKs (Rust + TS), dApp starters
+- Security disclosures and audits (responsible-disclosure work pre-bounty)
+- Time spent reviewing other people's PRs and helping new contributors
+
+### Recent upstream contributions
+
+- [cometbft/cometbft#5857](https://github.com/cometbft/cometbft/pull/5857) — `LoadValidatorsFast` (903× block-replay speedup)
+- [cometbft/cometbft#5861](https://github.com/cometbft/cometbft/pull/5861) — JSON-RPC ID float saturation bug fix
+- [cometbft/tendermint-rs#1518](https://github.com/cometbft/tendermint-rs/pull/1518) — `PartialEq<{u8,u16,u32,u64}>` for `block::Height`
+- [paradigmxyz/reth#24136](https://github.com/paradigmxyz/reth/pull/24136) — engine FCU stale-state backfill fix
+
+### Wallets
+
+![Networks](https://img.shields.io/badge/Networks-EVM_%7C_Solana_%7C_Bitcoin-2ea44f?style=for-the-badge)
+![Wallet](https://img.shields.io/badge/Wallet-Phantom-AB9FF2?style=for-the-badge&logo=phantom&logoColor=white)
+
+<details>
+<summary><b>🟦 EVM</b> — Ethereum · Base · Monad · BNB · Arbitrum · Optimism · Polygon · Sentrix Chain</summary>
+
+```
+0x25cF4d0e455b37387a1891712Bd3bF0a5bCd37c4
+```
+
+Accepts **ETH · USDC · USDT · BERA · SRX · any ERC-20** on any EVM-compatible chain. Send from MetaMask, Phantom, Rabby, Coinbase Wallet, or any standard EVM wallet.
+
+[Etherscan](https://etherscan.io/address/0x25cF4d0e455b37387a1891712Bd3bF0a5bCd37c4) · [Basescan](https://basescan.org/address/0x25cF4d0e455b37387a1891712Bd3bF0a5bCd37c4) · [Sentrix Scan](https://scan.sentrixchain.com/address/0x25cF4d0e455b37387a1891712Bd3bF0a5bCd37c4)
+
+</details>
+
+<details>
+<summary><b>🟣 Solana</b> — SOL & any SPL token</summary>
+
+```
+Dkqj5ntv66cZFTFpMWZ9KaiF45srY9ZxZNLwmAtrG1nT
+```
+
+Accepts **SOL · USDC-SPL · USDT-SPL · any SPL token**. Send from Phantom, Solflare, Backpack, or any standard SPL wallet.
+
+[Solscan](https://solscan.io/account/Dkqj5ntv66cZFTFpMWZ9KaiF45srY9ZxZNLwmAtrG1nT)
+
+</details>
+
+<details>
+<summary><b>🟧 Bitcoin (Taproot)</b> — BTC</summary>
+
+```
+bc1pfgkpanxcyv6kl4k3jmtgegh53x8c8lukz7fr4gdsd625gacg6ygs2q534d
+```
+
+P2TR (Taproot) address. Send from any wallet supporting Taproot — Sparrow, Phantom, Xverse, Muun, Keystone.
+
+[Mempool.space](https://mempool.space/address/bc1pfgkpanxcyv6kl4k3jmtgegh53x8c8lukz7fr4gdsd625gacg6ygs2q534d)
+
+</details>
+
+### Suggested amounts
+
+| Amount | What it buys |
+|--------|--------------|
+| **$10** | A coffee · keeps me writing one more PR review tonight |
+| **$50** | An hour of focused engineering on an upstream PR |
+| **$250** | A full day on a Sentrix Chain core feature or audit response |
+| **$1,000+** | A week of sustained contributor work — name a focus area, I'll prioritize it |
+
+Custom amounts are great too. Drop me a message after sending if you want me to credit a name / handle in release notes or contributor logs.
+
+### Why crypto-only
+
+GitHub Sponsors requires a bank account and Stripe verification. I'd rather receive value the same way the network I build operates — on-chain, transparent, no intermediary, no chargebacks. If you sponsor, you can see exactly where it goes.
+
+---
