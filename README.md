@@ -115,10 +115,10 @@ I build open-source blockchain infrastructure full-time, unpaid. Sponsorship buy
 
 ### Wallets
 
-![Networks](https://img.shields.io/badge/Networks-EVM_%7C_Solana_%7C_Bitcoin-2ea44f?style=for-the-badge)
+![Networks](https://img.shields.io/badge/Networks-EVM_%7C_Solana_%7C_Bitcoin_%7C_Sui-2ea44f?style=for-the-badge)
 ![Wallet](https://img.shields.io/badge/Wallet-Phantom-AB9FF2?style=for-the-badge&logo=phantom&logoColor=white)
 
-All three addresses below come from a single **Phantom** wallet — Phantom now handles Solana, every EVM chain, and Bitcoin Taproot. If you also use Phantom, you can send to me on any of these networks from one app in one tap.
+All four addresses below come from a single **Phantom** wallet — Phantom now handles Solana, every EVM chain, Bitcoin Taproot, and Sui. If you also use Phantom, you can send to me on any of these networks from one app in one tap.
 
 <details>
 <summary><b>🟦 EVM</b> — Ethereum · Base · Monad · BNB · Arbitrum · Optimism · Polygon · Sentrix Chain</summary>
@@ -153,6 +153,25 @@ Dkqj5ntv66cZFTFpMWZ9KaiF45srY9ZxZNLwmAtrG1nT
 Accepts **SOL · USDC-SPL · USDT-SPL · any SPL token**. Send from Phantom, Solflare, Backpack, or any standard SPL wallet.
 
 [Solscan](https://solscan.io/account/Dkqj5ntv66cZFTFpMWZ9KaiF45srY9ZxZNLwmAtrG1nT)
+
+<br clear="all">
+
+</details>
+
+<details>
+<summary><b>🟦 Sui</b> — SUI & any Sui asset</summary>
+
+<br>
+
+<img align="right" width="180" src="./assets/sponsor/sui.png" alt="Sui wallet QR" />
+
+```
+0x281695f02524b848cf3d18bf1b2e769c7647685e223315489b81c210da7f30f3
+```
+
+Accepts **SUI · USDC · any Sui-native token**. Send from Phantom, Sui Wallet, Suiet, or any standard Sui wallet.
+
+[SuiScan](https://suiscan.xyz/mainnet/account/0x281695f02524b848cf3d18bf1b2e769c7647685e223315489b81c210da7f30f3) · [SuiVision](https://suivision.xyz/account/0x281695f02524b848cf3d18bf1b2e769c7647685e223315489b81c210da7f30f3)
 
 <br clear="all">
 
