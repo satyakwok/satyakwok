@@ -118,6 +118,8 @@ I build open-source blockchain infrastructure full-time, unpaid. Sponsorship buy
 ![Networks](https://img.shields.io/badge/Networks-EVM_%7C_Solana_%7C_Bitcoin-2ea44f?style=for-the-badge)
 ![Wallet](https://img.shields.io/badge/Wallet-Phantom-AB9FF2?style=for-the-badge&logo=phantom&logoColor=white)
 
+All three addresses below come from a single **Phantom** wallet — Phantom now handles Solana, every EVM chain, and Bitcoin Taproot. If you also use Phantom, you can send to me on any of these networks from one app in one tap.
+
 <details>
 <summary><b>🟦 EVM</b> — Ethereum · Base · Monad · BNB · Arbitrum · Optimism · Polygon · Sentrix Chain</summary>
 
@@ -167,7 +169,7 @@ Accepts **SOL · USDC-SPL · USDT-SPL · any SPL token**. Send from Phantom, Sol
 bc1pfgkpanxcyv6kl4k3jmtgegh53x8c8lukz7fr4gdsd625gacg6ygs2q534d
 ```
 
-P2TR (Taproot) address. Send from any wallet supporting Taproot — Sparrow, Phantom, Xverse, Muun, Keystone.
+P2TR (Taproot) address. Phantom supports BTC Taproot natively, or use any Taproot-capable wallet — Sparrow, Xverse, Muun, Keystone.
 
 [Mempool.space](https://mempool.space/address/bc1pfgkpanxcyv6kl4k3jmtgegh53x8c8lukz7fr4gdsd625gacg6ygs2q534d)
 
