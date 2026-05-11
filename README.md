@@ -1,6 +1,7 @@
 # Satya Kwok
 
 [![X](https://img.shields.io/badge/X-@blackskyiee-000000?style=flat-square&logo=x&logoColor=white)](https://x.com/blackskyiee)
+[![Telegram](https://img.shields.io/badge/Telegram-@Evtraf-26A5E4?style=flat-square&logo=telegram&logoColor=white)](https://t.me/Evtraf)
 [![Website](https://img.shields.io/badge/Website-sentrixchain.com-1f6feb?style=flat-square&logo=safari&logoColor=white)](https://sentrixchain.com)
 [![Sponsor](https://img.shields.io/badge/Sponsor-crypto--only-2ea44f?style=flat-square&logo=ethereum&logoColor=white)](#sponsor)
 
