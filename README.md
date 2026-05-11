@@ -1,5 +1,9 @@
 # Satya Kwok
 
+[![X](https://img.shields.io/badge/X-@blackskyiee-000000?style=flat-square&logo=x&logoColor=white)](https://x.com/blackskyiee)
+[![Website](https://img.shields.io/badge/Website-sentrixchain.com-1f6feb?style=flat-square&logo=safari&logoColor=white)](https://sentrixchain.com)
+[![Sponsor](https://img.shields.io/badge/Sponsor-crypto--only-2ea44f?style=flat-square&logo=ethereum&logoColor=white)](#sponsor)
+
 Founder & Core Developer of **Sentrix Chain** — a Rust-based, EVM-compatible Layer-1 blockchain from Indonesia.
 
 I am building Sentrix Chain as an independent blockchain infrastructure project focused on protocol engineering, validator infrastructure, EVM compatibility, RPC reliability, and developer tooling.
@@ -116,6 +120,10 @@ I build open-source blockchain infrastructure full-time, unpaid. Sponsorship buy
 <details>
 <summary><b>🟦 EVM</b> — Ethereum · Base · Monad · BNB · Arbitrum · Optimism · Polygon · Sentrix Chain</summary>
 
+<br>
+
+<img align="right" width="180" src="./assets/sponsor/evm.png" alt="EVM wallet QR" />
+
 ```
 0x25cF4d0e455b37387a1891712Bd3bF0a5bCd37c4
 ```
@@ -124,10 +132,16 @@ Accepts **ETH · USDC · USDT · BERA · SRX · any ERC-20** on any EVM-compatib
 
 [Etherscan](https://etherscan.io/address/0x25cF4d0e455b37387a1891712Bd3bF0a5bCd37c4) · [Basescan](https://basescan.org/address/0x25cF4d0e455b37387a1891712Bd3bF0a5bCd37c4) · [Sentrix Scan](https://scan.sentrixchain.com/address/0x25cF4d0e455b37387a1891712Bd3bF0a5bCd37c4)
 
+<br clear="all">
+
 </details>
 
 <details>
 <summary><b>🟣 Solana</b> — SOL & any SPL token</summary>
+
+<br>
+
+<img align="right" width="180" src="./assets/sponsor/sol.png" alt="Solana wallet QR" />
 
 ```
 Dkqj5ntv66cZFTFpMWZ9KaiF45srY9ZxZNLwmAtrG1nT
@@ -137,10 +151,16 @@ Accepts **SOL · USDC-SPL · USDT-SPL · any SPL token**. Send from Phantom, Sol
 
 [Solscan](https://solscan.io/account/Dkqj5ntv66cZFTFpMWZ9KaiF45srY9ZxZNLwmAtrG1nT)
 
+<br clear="all">
+
 </details>
 
 <details>
 <summary><b>🟧 Bitcoin (Taproot)</b> — BTC</summary>
+
+<br>
+
+<img align="right" width="180" src="./assets/sponsor/btc.png" alt="Bitcoin Taproot wallet QR" />
 
 ```
 bc1pfgkpanxcyv6kl4k3jmtgegh53x8c8lukz7fr4gdsd625gacg6ygs2q534d
@@ -149,6 +169,8 @@ bc1pfgkpanxcyv6kl4k3jmtgegh53x8c8lukz7fr4gdsd625gacg6ygs2q534d
 P2TR (Taproot) address. Send from any wallet supporting Taproot — Sparrow, Phantom, Xverse, Muun, Keystone.
 
 [Mempool.space](https://mempool.space/address/bc1pfgkpanxcyv6kl4k3jmtgegh53x8c8lukz7fr4gdsd625gacg6ygs2q534d)
+
+<br clear="all">
 
 </details>
 
