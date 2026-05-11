@@ -84,3 +84,17 @@ My goal is to make Sentrix Chain a credible blockchain infrastructure project fr
 The project is still early, but the focus is clear:
 
 **real code, real infrastructure, real network progress.**
+
+## Support
+
+Open-source contributor work (CometBFT, tendermint-rs, Reth, alloy, libp2p — plus Sentrix Chain core) is unpaid by default. If my work has been useful and you want to support continued contributions, direct crypto tips help.
+
+| Network | Asset(s) | Address |
+|---------|----------|---------|
+| Ethereum / Base / Monad / BNB / Arbitrum / Optimism / Polygon / Sentrix Chain | ETH, USDC, USDT, BERA, SRX, any EVM token | `0x25cF4d0e455b37387a1891712Bd3bF0a5bCd37c4` |
+| Solana | SOL, USDC-SPL, any SPL token | `Dkqj5ntv66cZFTFpMWZ9KaiF45srY9ZxZNLwmAtrG1nT` |
+| Bitcoin (Taproot) | BTC | `bc1pfgkpanxcyv6kl4k3jmtgegh53x8c8lukz7fr4gdsd625gacg6ygs2q534d` |
+
+The EVM address works on every EVM-compatible chain — Ethereum mainnet, Base, Monad, Arbitrum, Optimism, Polygon, BNB Chain, Sentrix Chain, and others. Wallet: Phantom.
+
+No fiat / no bank. 100% on-chain. Any amount is appreciated.
