@@ -40,22 +40,43 @@ Production bug closures, each pinned by a regression test that fails on the prio
 
 ## Upstream contributions
 
-Open PRs against external projects (links resolve to the patches):
+20+ open PRs across the Rust + blockchain stack. Each patch fixes a class of bug I hit while building Sentrix or verified-by-hand from an audit report, includes a regression test that fails on `main` and passes after, and follows the host project's commit-message convention.
+
+### Consensus & execution layer (Rust)
 
 | Project | PR | Subject |
 |---|---|---|
 | [`paradigmxyz/reth`](https://github.com/paradigmxyz/reth) | [#24136](https://github.com/paradigmxyz/reth/pull/24136) | `fix(engine)`: trigger backfill when canonical header is ahead of execution (#23234) |
+| [`bluealloy/revm`](https://github.com/bluealloy/revm) | [#3671](https://github.com/bluealloy/revm/pull/3671) | `fix(database)`: AlloyDB returns `None` for non-existent accounts via `eth_getProof` codeHash check — EIP-161 state-clear compliance (#2454) |
 | [`cometbft/cometbft`](https://github.com/cometbft/cometbft) | [#5857](https://github.com/cometbft/cometbft/pull/5857) | `consensus`: `LoadValidatorsFast` — 903× faster `ExecCommitBlock` proposer-priority advance (#1693) |
 | [`cometbft/cometbft`](https://github.com/cometbft/cometbft) | [#5861](https://github.com/cometbft/cometbft/pull/5861) | `rpc/jsonrpc`: reject out-of-int-range float IDs in `idFromInterface` (#5846) |
 | [`cometbft/cometbft`](https://github.com/cometbft/cometbft) | [#5864](https://github.com/cometbft/cometbft/pull/5864) | `consensus`: proposer self-verifies its own vote extension before broadcast (#5204) |
 | [`cometbft/tendermint-rs`](https://github.com/cometbft/tendermint-rs) | [#1518](https://github.com/cometbft/tendermint-rs/pull/1518) | `impl PartialEq<{u8,u16,u32,u64}> for block::Height` (#1507) |
 | [`alloy-rs/alloy`](https://github.com/alloy-rs/alloy) | [#3976](https://github.com/alloy-rs/alloy/pull/3976) | `fix(consensus-any)`: saturate `baseFeePerGas` above `u64::MAX` on deser (#3741) |
+
+### XRPL SDKs (Rust + TypeScript) — security audit batch
+
+Verified an AI-flagged audit run by hand; shipped fixes for real bugs, closed-out false positives with empirical traces instead of speculative PRs.
+
+| Project | PR | Subject |
+|---|---|---|
+| [`XRPLF/xrpl-rust`](https://github.com/XRPLF/xrpl-rust) | [#299](https://github.com/XRPLF/xrpl-rust/pull/299) | `fix(wallet)`: custom `Debug` impl redacts seed + private_key (#287) |
+| [`XRPLF/xrpl-rust`](https://github.com/XRPLF/xrpl-rust) | [#300](https://github.com/XRPLF/xrpl-rust/pull/300) | `fix(keypairs)`: use `OsRng` directly for seed entropy — drops `rand_hc` dep (#286) |
+| [`XRPLF/xrpl-rust`](https://github.com/XRPLF/xrpl-rust) | [#301](https://github.com/XRPLF/xrpl-rust/pull/301) | `fix(keypairs)`: Ed25519 `verify_strict` for canonical-encoding enforcement (#283) |
+| [`XRPLF/xrpl-rust`](https://github.com/XRPLF/xrpl-rust) | [#302](https://github.com/XRPLF/xrpl-rust/pull/302) | `fix(keypairs)`: tighten secp256k1 secret range to `[1, n-1]` (#289) |
+| [`XRPLF/xrpl-rust`](https://github.com/XRPLF/xrpl-rust) | [#303](https://github.com/XRPLF/xrpl-rust/pull/303) | `fix(keypairs)`: strip exact secp256k1 prefix, not all leading zeros (#290) |
+| [`XRPLF/xrpl-rust`](https://github.com/XRPLF/xrpl-rust) | [#304](https://github.com/XRPLF/xrpl-rust/pull/304) | `ci`: pin third-party GitHub Actions to commit SHAs (#288) |
+| [`XRPLF/xrpl-rust`](https://github.com/XRPLF/xrpl-rust) | [#305](https://github.com/XRPLF/xrpl-rust/pull/305) | `ci`: measure integration-test coverage (#297) |
+| [`XRPLF/xrpl.js`](https://github.com/XRPLF/xrpl.js) | [#3338](https://github.com/XRPLF/xrpl.js/pull/3338) | `fix(xrpl)`: `handleDeliverMax` uses deep amount equality, not `!==` (#3313) |
+
+### TUI / CLI tooling & registries
+
+| Project | PR | Subject |
+|---|---|---|
 | [`ratatui/ratatui`](https://github.com/ratatui/ratatui) | [#2527](https://github.com/ratatui/ratatui/pull/2527) | `fix(terminal)`: skip wide-grapheme continuation cells in `insert_before` (#1332) |
 | [`unhappychoice/splashboard`](https://github.com/unhappychoice/splashboard) | [#216](https://github.com/unhappychoice/splashboard/pull/216) | `feat`: `cache` management CLI — `list`, `clear`, `path` (#40) |
 | [`crynta/terax-ai`](https://github.com/crynta/terax-ai) | [#162](https://github.com/crynta/terax-ai/pull/162) | `feat(pty)`: `pty_cwd` for tab-restore CWD lookup (#134) |
 | `DefiLlama/chainlist`, `ethereum-lists/chains` | [#2714](https://github.com/DefiLlama/chainlist/pull/2714) · [#2715](https://github.com/DefiLlama/chainlist/pull/2715) · [#8266](https://github.com/ethereum-lists/chains/pull/8266) | Sentrix mainnet registration + EIP-3091 explorer URL |
-
-Each patch fixes a class of bug I hit while building Sentrix, includes a regression test that fails on `main` and passes after, follows the host project's commit-message convention.
 
 ## Tech focus
 
