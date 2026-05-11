@@ -195,17 +195,6 @@ P2TR (Taproot) address. Send from any Taproot-capable wallet (Sparrow, Xverse, M
 
 </details>
 
-### Suggested amounts
-
-| Amount | What it buys |
-|--------|--------------|
-| **$10** | A coffee · keeps me writing one more PR review tonight |
-| **$50** | An hour of focused engineering on an upstream PR |
-| **$250** | A full day on a Sentrix Chain core feature or audit response |
-| **$1,000+** | A week of sustained contributor work — name a focus area, I'll prioritize it |
-
-Custom amounts are great too. Drop me a message after sending if you want me to credit a name / handle in release notes or contributor logs.
-
 ### Why crypto-only
 
 GitHub Sponsors requires a bank account and Stripe verification. I'd rather receive value the same way the network I build operates — on-chain, transparent, no intermediary, no chargebacks. If you sponsor, you can see exactly where it goes.
