@@ -1,3 +1,7 @@
+<a href="https://sentrixchain.com">
+  <img src="https://raw.githubusercontent.com/sentrix-labs/brand-kit/main/social/github-social-1280x640.png" alt="Sentrix Chain" width="100%" />
+</a>
+
 # Satya Kwok
 
 [![X](https://img.shields.io/badge/X-@blackskyiee-000000?style=flat-square&logo=x&logoColor=white)](https://x.com/blackskyiee)
@@ -9,7 +13,39 @@ Independent Rust / protocol engineer · Indonesia (UTC+7) · open to remote.
 
 Solo-built **[Sentrix Chain](https://github.com/sentrix-labs/sentrix)** — open source EVM-compatible Layer-1 in Rust. Mainnet on 4 validators. 16-crate workspace, ~58k LOC. Custom Tendermint-style 3-phase BFT, libp2p networking, MDBX storage, `revm` execution.
 
-While building it I send fixes upstream to the Rust + blockchain stack the chain depends on. Recent open patches (regression-tested, host-convention commit messages):
+While building it I send fixes upstream to the Rust + blockchain stack the chain depends on. Each patch is regression-tested and follows host-project commit conventions.
+
+<table>
+  <tr>
+    <td valign="top" width="55%">
+      <a href="https://github.com/anuraghazra/github-readme-stats">
+        <img src="https://github-readme-stats.vercel.app/api?username=satyakwok&show_icons=true&include_all_commits=true&hide_border=true&bg_color=00000000&title_color=58a6ff&text_color=c9d1d9&icon_color=58a6ff" alt="GitHub stats" />
+      </a>
+    </td>
+    <td valign="top" width="45%">
+      <a href="https://github.com/anuraghazra/github-readme-stats">
+        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=satyakwok&layout=compact&hide_border=true&bg_color=00000000&title_color=58a6ff&text_color=c9d1d9&langs_count=8" alt="Top languages" />
+      </a>
+    </td>
+  </tr>
+</table>
+
+### Stack
+
+![Rust](https://img.shields.io/badge/Rust-000000?style=flat&logo=rust&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
+![Solidity](https://img.shields.io/badge/Solidity-363636?style=flat&logo=solidity&logoColor=white)
+![Foundry](https://img.shields.io/badge/Foundry-FFD700?style=flat&logo=ethereum&logoColor=black)
+![Dart](https://img.shields.io/badge/Dart-0175C2?style=flat&logo=dart&logoColor=white)
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat&logo=flutter&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat&logo=nextdotjs&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white)
+![ClickHouse](https://img.shields.io/badge/ClickHouse-FFCC01?style=flat&logo=clickhouse&logoColor=black)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black)
+
+### Recent open upstream PRs
 
 [`reth#24136`](https://github.com/paradigmxyz/reth/pull/24136) · [`revm#3671`](https://github.com/bluealloy/revm/pull/3671) · [`cometbft#5857`](https://github.com/cometbft/cometbft/pull/5857) · [`cometbft#5861`](https://github.com/cometbft/cometbft/pull/5861) · [`cometbft#5864`](https://github.com/cometbft/cometbft/pull/5864) · [`tendermint-rs#1518`](https://github.com/cometbft/tendermint-rs/pull/1518) · [`alloy#3976`](https://github.com/alloy-rs/alloy/pull/3976) · [`ratatui#2527`](https://github.com/ratatui/ratatui/pull/2527) · 7 PRs at [`xrpl-rust`](https://github.com/XRPLF/xrpl-rust/pulls?q=author%3Asatyakwok+is%3Aopen) · [`xrpl.js#3338`](https://github.com/XRPLF/xrpl.js/pull/3338)
 
