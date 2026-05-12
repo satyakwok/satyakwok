@@ -15,20 +15,9 @@ Solo-built **[Sentrix Chain](https://github.com/sentrix-labs/sentrix)** — open
 
 While building it I send fixes upstream to the Rust + blockchain stack the chain depends on. Each patch is regression-tested and follows host-project commit conventions.
 
-<table>
-  <tr>
-    <td valign="top" width="55%">
-      <a href="https://github.com/anuraghazra/github-readme-stats">
-        <img src="https://github-readme-stats.vercel.app/api?username=satyakwok&show_icons=true&include_all_commits=true&hide_border=true&bg_color=00000000&title_color=58a6ff&text_color=c9d1d9&icon_color=58a6ff" alt="GitHub stats" />
-      </a>
-    </td>
-    <td valign="top" width="45%">
-      <a href="https://github.com/anuraghazra/github-readme-stats">
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=satyakwok&layout=compact&hide_border=true&bg_color=00000000&title_color=58a6ff&text_color=c9d1d9&langs_count=8" alt="Top languages" />
-      </a>
-    </td>
-  </tr>
-</table>
+<a href="https://github.com/lowlighter/metrics">
+  <img src="./github-metrics.svg" alt="GitHub metrics — generated daily by lowlighter/metrics" />
+</a>
 
 ### Stack
 

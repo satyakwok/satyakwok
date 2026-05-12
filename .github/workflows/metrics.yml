@@ -1,0 +1,54 @@
+name: Generate profile metrics
+
+on:
+  # Refresh once a day. Cheap, well within free GHA minutes for a single repo.
+  schedule:
+    - cron: "0 0 * * *"
+  # Allow manual trigger from the Actions tab.
+  workflow_dispatch:
+  # Refresh after merging into main (e.g. profile copy edits).
+  push:
+    branches:
+      - main
+    paths:
+      - .github/workflows/metrics.yml
+
+jobs:
+  metrics:
+    runs-on: ubuntu-latest
+    permissions:
+      # The action commits the generated SVG back to the repo via committer mode.
+      contents: write
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          # Default GITHUB_TOKEN is enough for public-stat plugins. A PAT is only
+          # needed for private-contribution counts or follower deep-dive — keeping
+          # this workflow secret-free.
+          token: ${{ secrets.GITHUB_TOKEN }}
+          user: satyakwok
+          template: classic
+          base: header, activity, community, repositories, metadata
+          config_timezone: Asia/Jakarta
+          config_display: large
+          # Plugins (subset chosen for senior-eng signal — no trophies, no streak):
+          plugin_languages: yes
+          plugin_languages_ignored: html, tex, css, scss, less, cmake, makefile, dockerfile
+          plugin_languages_details: bytes-size, percentage
+          plugin_languages_indepth: yes
+          plugin_languages_limit: 8
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
+          plugin_topics: yes
+          plugin_topics_mode: mastered
+          plugin_topics_limit: 12
+          plugin_lines: yes
+          plugin_lines_history_limit: 1
+          plugin_followup: yes
+          plugin_followup_sections: repositories, user
+          # Commit back to the repo so the README can reference a local SVG —
+          # no external service to fail.
+          committer_message: "chore(metrics): refresh profile metrics"
+          committer_branch: main
+          output_action: commit
+          filename: github-metrics.svg
