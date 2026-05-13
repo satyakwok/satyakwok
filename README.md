@@ -47,7 +47,7 @@ I build open-source blockchain infrastructure full-time, unpaid. Sponsorship buy
 
 #### What your sponsorship enables
 
-- Upstream PRs to **CometBFT**, **tendermint-rs**, **Reth**, **alloy**, **libp2p**, **revm**, and other Rust + chain infra projects
+- Upstream PRs to **CometBFT**, **tendermint-rs**, **Reth**, **alloy**, **revm**, and other Rust + chain infra projects
 - **Sentrix Chain** core development — BFT consensus hardening, libp2p reliability, validator tooling, RPC/gRPC parity, indexer + explorer
 - **SentrisCloud** ecosystem — block explorer, faucet, wallets (web + mobile), SDKs (Rust + TS), dApp starters
 - Security disclosures (responsible-disclosure work pre-bounty)
