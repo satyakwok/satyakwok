@@ -34,12 +34,6 @@ While building it I send fixes upstream to the Rust + blockchain stack the chain
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black)
 
-### Recent open upstream PRs
-
-[`reth#24136`](https://github.com/paradigmxyz/reth/pull/24136) · [`revm#3671`](https://github.com/bluealloy/revm/pull/3671) · [`cometbft#5857`](https://github.com/cometbft/cometbft/pull/5857) · [`cometbft#5861`](https://github.com/cometbft/cometbft/pull/5861) · [`cometbft#5864`](https://github.com/cometbft/cometbft/pull/5864) · [`tendermint-rs#1518`](https://github.com/cometbft/tendermint-rs/pull/1518) · [`alloy#3976`](https://github.com/alloy-rs/alloy/pull/3976) · [`ratatui#2527`](https://github.com/ratatui/ratatui/pull/2527) · 7 PRs at [`xrpl-rust`](https://github.com/XRPLF/xrpl-rust/pulls?q=author%3Asatyakwok+is%3Aopen) · [`xrpl.js#3338`](https://github.com/XRPLF/xrpl.js/pull/3338)
-
----
-
 <a id="sponsor"></a>
 
 <details>
