@@ -25,5 +25,4 @@ If something I build is useful to you, you can support it:
 
 ### Sponsors
 
-<!-- sponsors -->
-<!-- sponsors -->
+<!-- sponsors --><!-- sponsors -->
