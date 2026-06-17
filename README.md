@@ -3,7 +3,6 @@
 Rust infrastructure engineer — Ethereum/EVM execution, consensus, and node systems.
 I work upstream on the Rust Ethereum stack and run a production Rust L1.
 
-[satyakwok.dev](https://satyakwok.dev) · [X @blackskyiee](https://x.com/blackskyiee) · [Telegram @Evtraf](https://t.me/Evtraf) · satyakwok88@gmail.com
 
 ### Focus
 
