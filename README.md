@@ -36,11 +36,11 @@ and **candle**. Full index: **[oss-contributions](https://github.com/satyakwok/o
 [**Sentrix Chain**](https://github.com/sentrix-labs/sentrix) — a Rust EVM Layer-1 I
 build and operate. Native Rust node, EVM execution via
 [`revm`](https://github.com/bluealloy/revm), BFT consensus, and a full stack: RPC,
-explorer, faucet, wallet, and validator tooling. Mainnet and a public testnet (chain
-IDs `7119` / `7120`), registered in [viem](https://github.com/wevm/viem/pull/4603),
+explorer, faucet, wallet, and validator tooling. Registered as chain IDs `7119`
+(mainnet) and `7120` (testnet) in [viem](https://github.com/wevm/viem/pull/4603),
 [ethereum-lists/chains](https://github.com/ethereum-lists/chains/pull/8266), and
-[chainlist](https://github.com/DefiLlama/chainlist/pull/2707). I run the validators and
-maintain the network day to day.
+[chainlist](https://github.com/DefiLlama/chainlist/pull/2707), with a live public
+testnet for development. I built the node and run the validator infrastructure.
 
 ### Other projects
 
