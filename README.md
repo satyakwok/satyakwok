@@ -1,54 +1,66 @@
 # Satya Kwok
 
-[![X](https://img.shields.io/badge/X-@blackskyiee-000000?style=flat-square&logo=x&logoColor=white)](https://x.com/blackskyiee)
-[![Telegram](https://img.shields.io/badge/Telegram-@Evtraf-26A5E4?style=flat-square&logo=telegram&logoColor=white)](https://t.me/Evtraf)
-[![GitHub Sponsors](https://img.shields.io/badge/Sponsor-%E2%9D%A4-ea4aaa?style=flat-square&logo=githubsponsors&logoColor=white)](https://github.com/sponsors/satyakwok)
-
-Rust developer working on open-source infrastructure: Ethereum/EVM tooling, consensus systems, and developer tools. I build in public.
-
-I contribute upstream to Rust/Ethereum infrastructure — with merged PRs in **[alloy](https://github.com/alloy-rs)**, **[Foundry](https://github.com/foundry-rs)**, and **[CometBFT](https://github.com/cometbft/cometbft)** — and build **[Sentrix Chain](https://github.com/sentrix-labs/sentrix)**, a Rust-based EVM Layer-1 with a live testnet, plus **[reliakit](https://github.com/satyakwok/reliakit)**, a zero-dependency reliability toolkit published on [crates.io](https://crates.io/crates/reliakit).
-
-### Focus
-
-Rust infrastructure · Ethereum / EVM tooling · RPC correctness · consensus / BFT systems · developer tooling · node and validator operations · reliability primitives for real services.
-
-### Upstream contributions
-
-Merged work in **[alloy](https://github.com/alloy-rs)**, **[Foundry](https://github.com/foundry-rs)**, and **[CometBFT](https://github.com/cometbft/cometbft)**, plus active in-review PRs across Reth, Lighthouse, candle, Agave, and others.
-
-Full index with links and descriptions: **[oss-contributions](https://github.com/satyakwok/oss-contributions)**.
-
-### Projects
-
-**[Sentrix Chain](https://github.com/sentrix-labs/sentrix)** — Rust-based EVM Layer-1 with a live testnet. Native Rust chain implementation, EVM execution via [`revm`](https://github.com/bluealloy/revm), and full RPC / explorer / faucet / wallet / validator / infra tooling, plus testnet operations and node maintenance.
-
-**[reliakit](https://github.com/satyakwok/reliakit)** — small, zero-dependency reliability toolkit for Rust (`no_std`-friendly, no `unsafe`): validated primitives, secret redaction, bounded collections, deterministic encoding, retry/backoff, timeout, rate limiting, circuit breaker, and health checks. [crates.io](https://crates.io/crates/reliakit) · [docs.rs](https://docs.rs/reliakit)
-
-**[evm-rust-lab](https://github.com/satyakwok/evm-rust-lab)** — practical Rust examples for Ethereum/EVM workflows using Alloy, REVM, and real RPC calls.
-
-**[solana-infra-doctor](https://github.com/satyakwok/solana-infra-doctor)** — Solana RPC readiness diagnostics, comparison, WebSocket checks, and redaction-safe reporting in Rust.
-
-### Stack
-
-![Rust](https://img.shields.io/badge/Rust-000000?style=flat&logo=rust&logoColor=white)
-![Ethereum](https://img.shields.io/badge/Ethereum-3C3C3D?style=flat&logo=ethereum&logoColor=white)
-![Solidity](https://img.shields.io/badge/Solidity-363636?style=flat&logo=solidity&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black)
-
-Also: Alloy · REVM · Foundry · CometBFT · libp2p · RPC.
-
-### Open to
-
-Remote Rust infrastructure work — Ethereum/EVM and execution-layer systems, RPC correctness, node and validator infrastructure, consensus / BFT systems, developer tooling, and reliability-focused Rust libraries.
-
-### Contact
+Rust infrastructure engineer — Ethereum/EVM execution, consensus, and node systems.
+I work upstream on the Rust Ethereum stack and run a production Rust L1.
 
 [satyakwok.dev](https://satyakwok.dev) · [X @blackskyiee](https://x.com/blackskyiee) · [Telegram @Evtraf](https://t.me/Evtraf) · satyakwok88@gmail.com
 
-### Support my work
+### Focus
 
-If something I build is useful to you, you can support it: [GitHub Sponsors](https://github.com/sponsors/satyakwok) · [Saweria](https://saweria.co/satyakwok) (Indonesia).
+EVM execution and RPC correctness · consensus / BFT systems · node and validator
+infrastructure · Ethereum tooling (alloy, Foundry, revm) · reliability primitives for
+real services.
 
-<!-- sponsors --><!-- sponsors -->
+### Upstream contributions
+
+Selected merged work across the Rust/Ethereum infrastructure stack:
+
+- **alloy** — [core#1122](https://github.com/alloy-rs/core/pull/1122) validate event
+  topic count before decoding the dyn-ABI log body ·
+  [core#1124](https://github.com/alloy-rs/core/pull/1124) propagate `extra_derives` to
+  generated `sol!` call enums ·
+  [alloy#3976](https://github.com/alloy-rs/alloy/pull/3976) saturate out-of-`u64`
+  `baseFeePerGas` on header deserialization.
+- **CometBFT** — [#5890](https://github.com/cometbft/cometbft/pull/5890) proposer
+  self-verifies its vote extension before broadcast ·
+  [#5861](https://github.com/cometbft/cometbft/pull/5861) reject out-of-range float
+  RPC IDs · [#5857](https://github.com/cometbft/cometbft/pull/5857) `LoadValidatorsFast`
+  on the replay path.
+- **Foundry** — [foundry-core#91](https://github.com/foundry-rs/foundry-core/pull/91)
+  preserve base paths in generated block-explorer URLs.
+
+Active in-review PRs across **Reth**, **Foundry**, **Alloy**, **Lighthouse**, **Agave**,
+and **candle**. Full index: **[oss-contributions](https://github.com/satyakwok/oss-contributions)**.
+
+### Sentrix Chain
+
+[**Sentrix Chain**](https://github.com/sentrix-labs/sentrix) — a Rust EVM Layer-1 I
+build and operate. Native Rust node, EVM execution via
+[`revm`](https://github.com/bluealloy/revm), BFT consensus, and a full stack: RPC,
+explorer, faucet, wallet, and validator tooling. Mainnet and a public testnet (chain
+IDs `7119` / `7120`), registered in [viem](https://github.com/wevm/viem/pull/4603),
+[ethereum-lists/chains](https://github.com/ethereum-lists/chains/pull/8266), and
+[chainlist](https://github.com/DefiLlama/chainlist/pull/2707). I run the validators and
+maintain the network day to day.
+
+### Other projects
+
+- [**reliakit**](https://github.com/satyakwok/reliakit) — zero-dependency Rust
+  reliability toolkit (`no_std`-friendly, no `unsafe`): retry/backoff, timeout, rate
+  limiting, circuit breaker, bounded collections, secret redaction, deterministic
+  encoding, health checks. [crates.io](https://crates.io/crates/reliakit) ·
+  [docs.rs](https://docs.rs/reliakit)
+- [**evm-rust-lab**](https://github.com/satyakwok/evm-rust-lab) — practical Rust
+  examples for Ethereum/EVM workflows with Alloy, REVM, and real RPC.
+- [**solana-infra-doctor**](https://github.com/satyakwok/solana-infra-doctor) — Solana
+  RPC readiness diagnostics and redaction-safe reporting in Rust.
+
+### Stack
+
+Rust · Ethereum / EVM · revm · alloy · Foundry · CometBFT · libp2p · Solidity ·
+TypeScript · Docker · Linux.
+
+### Open to
+
+Remote Rust infrastructure roles — execution-layer and EVM systems, RPC correctness,
+node/validator infrastructure, and consensus / BFT engineering.
