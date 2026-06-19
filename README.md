@@ -27,6 +27,8 @@ Selected merged work across the Rust/Ethereum infrastructure stack:
   on the replay path.
 - **Foundry**: [foundry-core#91](https://github.com/foundry-rs/foundry-core/pull/91)
   preserve base paths in generated block-explorer URLs.
+- **Ratatui**: [#2594](https://github.com/ratatui/ratatui/pull/2594) keep a large
+  scrollbar thumb within the track so the trailing end symbol is not dropped.
 
 Active in-review PRs across **Reth**, **Foundry**, **Alloy**, **Lighthouse**, **Agave**,
 and **candle**. Full index: **[oss-contributions](https://github.com/satyakwok/oss-contributions)**.
